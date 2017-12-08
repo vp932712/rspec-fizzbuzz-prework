@@ -1,11 +1,11 @@
 def fizzbuzz(x)
   if x%3 ==0 && x %5 ==0
-    "fizzbuzz"
+    "FizzBuzz"
   elsif x % 3 == 0
-    "fizz"
+    "Fizz"
   elsif x%5 ==0
-    "buzz"
+    "Buzz"
   else
-    "nil"
+    undefined
   end
 end
